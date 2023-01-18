@@ -1,0 +1,11 @@
+.dropdown{
+    font-size: 40px;
+    background-color: darkolivegreen;
+}
+.dropdown a {
+    font-size: 40px;
+}
+.drpbtn{
+    width:50px;
+    background-color: lightcoral;
+}

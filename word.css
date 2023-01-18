@@ -1,0 +1,17 @@
+.property1{
+    width: 200px;
+    border:crimson 2px solid;
+    word-break: break-all;
+}
+.property2{
+    width: 200px;
+    border:crimson 2px solid;
+    word-break: break-word;
+
+}
+.property3{
+    width: 200px;
+    border:crimson 2px solid;
+    word-wrap: keep-all;
+    
+}

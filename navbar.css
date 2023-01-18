@@ -1,0 +1,107 @@
+.parent{
+    min-height: 200%;
+    background-color:cyan;
+}
+.dropdown {
+    background-color: blueviolet;
+    font-size: 25px;
+    overflow: hidden;
+}
+.dropdown a {
+    text-decoration: none;
+    float: left;
+    padding: 13px 16px;
+    
+}
+
+.drop-container {
+    overflow: hidden;
+    float: left;
+}
+
+.drpbtn {
+    background-color: hotpink;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
+.drop-content{
+    position: absolute;
+    min-width: 160px;
+    background-color: darkgreen;
+    min-height: 160px;
+    display: none;
+    }
+ 
+.drop-content a {
+        text-decoration: none;
+        display: block;
+        padding: 13px 16px;
+        float: none;
+}
+
+.drop-container:hover .drop-content{
+    display: block;
+    z-index: 1;
+}
+.drop-content a:hover{
+    background-color: coral;
+}
+.link3{
+    overflow: hidden;
+    
+}
+.dropdown-link3-cont{
+    position: absolute;
+    background-color: darkgreen;
+    min-width: 140px;
+    left: 140px;
+    top:100px;
+}
+.dropdown-link3-cont a {
+    float: right;
+    
+ }
+
+.link3:hover .dropdown-link3-cont{
+    display: block;
+  } 
+.sidebar{
+    position: fixed;
+    width: 120px;
+    background-color: lightsalmon;
+    height: 95%;
+    overflow: scroll;
+}
+.footer{
+    position: fixed;
+    text-align:center ;
+    bottom: 0px;
+    height: 90px;
+    background-color:burlywood;
+    width: 100%;
+    
+}
+.mid-cont{
+    position: absolute;
+    left: 140px;
+    padding:16px;
+    margin:16px;
+    font-size: 25px;
+
+}
+.word{
+    position: absolute;
+    background-color: darksalmon;
+    height: 200px;
+    width: 200px;
+    display: block;
+    top: 180px;
+    left: 280px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+
+}
